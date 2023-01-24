@@ -2,11 +2,12 @@
 Lista de exercícios sobre structs - Cadeira de introdução a linguagem C - Fundação Liberato
 
 1. Um projeto de caderno de chamada eletrônico especifica o armazenamento das informações dos alunos em estruturas com os seguintes dados:
-• Matricula (inteiro sem sinal)
-• Nome do aluno (string)
-• Notas de 3 trimestrais (float)
-• Resultado anual (float)
-• Conceito (char)
+* Matricula (inteiro sem sinal)
+* Nome do aluno (string)
+* Notas de 3 trimestrais (float)
+* Resultado anual (float)
+* Conceito (char)
+
 Elabore um programa que:
 * a) Construa (declare) a estrutura que represente a organização proposta. Crie uma variável deste tipo.
 * b) Codifique a entrada de dados para a variável.
@@ -14,10 +15,10 @@ Elabore um programa que:
 
 O conceito é dado em função do resultado: 
 Resultado Conceito
-* >=9   -> A
-* >=7,5 -> B
-* >=6   -> C
-* <6    -> R
+* >= 9   -> A
+* >= 7,5 -> B
+* >= 6   -> C
+* <6     -> R
 
 Elabore as rotinas de cálculo do resultado e conceito.
 
